@@ -137,6 +137,7 @@ strong{
     body{
         padding: 20% 15% 5%;
         font-size: 15px;
+        width: 700px;
     }
 
     .socialIcon{
@@ -149,7 +150,7 @@ strong{
 @media(min-width: 992px){
     body{
         padding: 20% 18% 5%;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .socialIcon{
@@ -162,13 +163,19 @@ strong{
 
 @media(min-width: 1200px){
     body{
-        padding: 20% 20% 5%;
-        font-size: 20px;
-        width: 900px;
+        padding: 5% 20% 5%;
     }
 
     button{
         width: 30%;
+    }
+
+    .myGrid{
+        row-gap: 1%;
+    }
+
+    .dashboard{
+        margin: 5% 0;
     }
 
     .formulario{
